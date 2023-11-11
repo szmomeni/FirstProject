@@ -9,8 +9,6 @@ import { Housinglocation } from '../housinglocation';
   styleUrl: './housing-location.component.scss'
 })
 export class HousingLocationComponent {
-  @Input() housingLocation?: Housinglocation;//not null and undentified
-  
+  @Input() housingLocation!: Housinglocation;//not null and undentified
 
 }
-

@@ -1,14 +1,17 @@
 
  .head {
+  display: grid;
+  grid-template-columns: (auto, auto,  auto);
 background-color: whitesmoke;
-justify-content: center;
+text-align: center;
+width: 20%;
 }
   img {
     padding: 5px;
     display:  inline;
     }
 #form1 {
-    margin: 5px;
+    margin: 20px;
 }
   input[type="text"] {
     border: solid 1px gray;
@@ -18,9 +21,3 @@ justify-content: center;
     display: inline-block;
     width: 20%;
   }
-
-  .primary{
-    height: 30px;
-
-  }
-  
