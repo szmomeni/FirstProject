@@ -1,0 +1,13 @@
+<div class="head">
+    <img class="brand-logo" src="/assets/home.png" alt="logo" aria-hidden="true">
+    <span style="display: inline;text-align: center;">Home</span>
+</div>
+
+<form id="form1">
+    <input type="text" placeholder="Filter by city">
+    <button class="primary" type="button">Search</button>
+</form>
+<app-housing-location
+  *ngFor="let housingLocation of housingLocationList"
+    [housingLocation]="housingLocation">
+</app-housing-location>
