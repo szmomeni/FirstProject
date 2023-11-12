@@ -1,2 +1,15 @@
-<!-- <h1>{{title}}</h1> -->
- <app-home></app-home> 
+<main>
+    <!-- در ابتدا مسیر کامپوننت home رو در پیش  میگیره  -->
+    <a [routerLink]="['/']">
+      <header class="brand-name">
+        <img class="brand-logo" src="/assets/logo.svg" alt="logo" aria-hidden="true">
+      </header>
+    </a>
+    <section class="content">
+        <!-- از پارامترهای تعیین شده در فایل روتینگ برای مسیریابی استفاده میکنه -->
+      <router-outlet></router-outlet>
+    </section>
+  </main>
+
+  
+ 

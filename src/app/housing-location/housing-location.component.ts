@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Housinglocation } from '../housinglocation';
+import { CommonModule } from '@angular/common';
 
 
 

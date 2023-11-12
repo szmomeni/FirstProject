@@ -1,9 +1,7 @@
 .listing {
-  background: lightgrey;
-    border-radius: 30px;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-  width: 20%;
+  background: var(--accent-color);
+  border-radius: 30px;
+  padding-bottom: 30px;
 }
 .listing-heading {
   color: var(--primary-color);
